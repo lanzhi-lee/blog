@@ -10,7 +10,7 @@ module.exports = {
   },
   port: 3001,
 
-  base: '/blog/',
+  // base: '/blog/',
   
   markdown: {
     lineNumbers: true,
