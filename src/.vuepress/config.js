@@ -10,7 +10,8 @@ module.exports = {
   },
   port: 3001,
 
-  // base:'baibai-lee.github.io/'
+  base: '/blog/',
+  
   markdown: {
     lineNumbers: true,
   },
