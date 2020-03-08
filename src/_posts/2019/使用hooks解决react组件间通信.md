@@ -33,12 +33,12 @@ npm run start
 ### 删除无用文件
 最终目录结构如下：
 
-![1.png](https://user-gold-cdn.xitu.io/2020/1/15/16fa7e42769762e3?w=425&h=288&f=png&s=12652)
+![1.png](https://github.com/baibai-lee/hooks-demo/raw/master/doc/1.png)
 
 ## 搭建静态结构
 
 ### 目标功能
-![2.png](https://user-gold-cdn.xitu.io/2020/1/15/16fa7e4276c831dd?w=271&h=165&f=png&s=4801)
+![2.png](https://github.com/baibai-lee/hooks-demo/raw/master/doc/2.png)
 
 如上图所示：
 
@@ -47,7 +47,7 @@ npm run start
 - 点击`clear`清空列表
 
 ### 组件结构
-![3.png](https://user-gold-cdn.xitu.io/2020/1/15/16fa7e427741114f?w=646&h=238&f=png&s=8149)
+![3.png](https://github.com/baibai-lee/hooks-demo/raw/master/doc/3.png)
 
 可以发现，`Detail`组件展示列表的数据，将要被`App`、 `Detail`、 `Header`三个组件分别操作
 
@@ -140,12 +140,12 @@ export const Context = React.createContext({})
 
 ![4.png](https://github.com/baibai-lee/hooks-demo/raw/master/doc/4.png)
 
-![5.png](https://user-gold-cdn.xitu.io/2020/1/15/16fa7e4277027f57?w=1677&h=630&f=png&s=101979)
+![5.png](https://github.com/baibai-lee/hooks-demo/raw/master/doc/5.png)
 
 ![6.png](https://github.com/baibai-lee/hooks-demo/raw/master/doc/6.png)
 
 最终效果如下：
-![7.gif](https://user-gold-cdn.xitu.io/2020/1/15/16fa7e341a74b38a?w=295&h=357&f=gif&s=111527)
+![7.gif](https://github.com/baibai-lee/hooks-demo/raw/master/doc/7.gif)
 
 ## 参考资料
 
