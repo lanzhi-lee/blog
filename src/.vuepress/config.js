@@ -17,7 +17,16 @@ module.exports = {
   },
 
   head: [
-    ['link', { rel: 'icon', type: "image/x-icon", href: '/favicon.ico' }]
+    ['link', { rel: 'icon', type: "image/x-icon", href: '/favicon.ico' }],
+    ['script', {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?a4851e8341975115417f902cc3d066c5";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    `],
   ],
 
   // 使用的主题
