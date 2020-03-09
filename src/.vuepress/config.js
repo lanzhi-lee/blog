@@ -118,12 +118,12 @@ module.exports = {
     lastUpdated: true,
 
     // 评论配置，参考下方 [页面评论] 章节
-    // comments: {
-    //   owner: 'meteorlxy',
-    //   repo: 'vuepress-theme-meteorlxy',
-    //   clientId: 'MY_CLIENT_ID',
-    //   clientSecret: 'MY_CLIENT_SECRET',
-    // },
+    comments: {
+      owner: 'baibai-lee',
+      repo: 'blog',
+      clientId: Conf.comments.clientId,
+      clientSecret: Conf.comments.clientSecret,
+    },
 
     // 分页配置 (可选)
     pagination: {

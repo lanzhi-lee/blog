@@ -1,7 +1,7 @@
 module.exports = secretKeyConf = {
   comments: {
-    // clientId: 'MY_CLIENT_ID',
-    // clientSecret: 'MY_CLIENT_SECRET',
+    clientId: 'e73f2a8df2aca78b8bfa',
+    clientSecret: '6281df1d4aa5eeea11d0b57efa3dab39fe662008',
   },
   ga: 'UA-160044485-1', // UA-000000000-1
   ba: `var _hmt = _hmt || [];
