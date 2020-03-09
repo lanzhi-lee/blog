@@ -67,7 +67,7 @@ module.exports = {
         // Github 帐号和链接
         github: { account: '李三思', link: 'https://github.com/baibai-lee' },
         // Facebook 帐号和链接
-        // facebook: { account: '', link: '' },
+        facebook: { account: 'Lanzhi Lee', link: 'https://www.facebook.com/lanzhi.leezx' },
         // 知乎 帐号和链接
         zhihu: { account: '李三思', link: 'https://www.zhihu.com/people/li-bai-75-59' },
         // 掘金 帐号和链接
