@@ -1,3 +1,5 @@
+const Conf = require('./secretKeyConf')
+
 module.exports = {
   // 网站 Title
   title: '兰之的博客',
@@ -27,6 +29,10 @@ module.exports = {
         s.parentNode.insertBefore(hm, s);
       })();
     `],
+  ],
+
+  plugins: [
+    ['@vuepress/google-analytics', { 'ga': Conf.ga }],
   ],
 
   // 使用的主题
