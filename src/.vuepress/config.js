@@ -19,6 +19,7 @@ module.exports = {
   },
 
   head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'icon', type: "image/x-icon", href: '/favicon.ico' }],
     ['script', {}, Conf.ba], // 百度统计的代码
   ],
