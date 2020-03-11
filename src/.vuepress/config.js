@@ -21,6 +21,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'icon', type: "image/x-icon", href: '/favicon.ico' }],
+    ['meta', { name: 'google-site-verification', content: "QqTmeO1tqP2z-OKc8Wk3n1Fzj9gFxNZ4IMgMtuep00w" }],
     ['script', {}, Conf.ba], // 百度统计的代码
   ],
 
