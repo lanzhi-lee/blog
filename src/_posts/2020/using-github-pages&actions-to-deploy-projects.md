@@ -1,7 +1,7 @@
 ---
 category: 杂谈
 date: 2020-05-21
-title: 使用 GitHub Pages & GitHub Actions 部署前端项目以 React 为例）
+title: 使用 GitHub Pages & GitHub Actions 部署前端项目（以 React 为例）
 header-title: true
 ---
 
