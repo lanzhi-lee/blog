@@ -5,11 +5,11 @@ title: 使用Let's Encrypt申请通配符域名证书
 header-title: true
 ---
 
-# CSS 使用 Let's Encrypt 申请通配符域名证书
+# 使用 Let's Encrypt 申请通配符域名证书
 
-### 详细步骤
+## 详细步骤
 
-##### 1. 安装`acme.sh`
+### 1. 安装`acme.sh`
 
 ```bash
 curl https://get.acme.sh | sh
@@ -17,13 +17,13 @@ curl https://get.acme.sh | sh
 wget -O - https://get.acme.sh | sh
 ```
 
-##### 2. 使用手动模式创建证书
+### 2. 使用手动模式创建证书
 
 ```bash
 acme.sh --issue -d "*.leezx.cn" --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
 
-##### 3. 在 DNS 服务提供商处添加一条 txt 记录并验证
+### 3. 在 DNS 服务提供商处添加一条 txt 记录并验证
 
 ```bash
 # mac
@@ -36,13 +36,13 @@ nslookup -type=txt _acme-challenge.leezx.cn 223.5.5.5
 dig @223.5.5.5 _acme-challenge.leezx.cn txt +short
 ```
 
-##### 4. 成功后更新证书
+### 4. 成功后更新证书
 
 ```bash
 acme.sh --renew -d "*.leezx.cn" --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
 
-### 参考文档
+## 参考文档
 
 - [Let's Encrypt 官网](https://letsencrypt.org/zh-cn/)
 - [acme.sh 仓库](https://github.com/acmesh-official/acme.sh)
