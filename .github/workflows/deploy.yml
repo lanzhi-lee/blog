@@ -1,4 +1,4 @@
-name: Publish docs to github pages
+name: Publish Blogs
 
 on:
   push:
@@ -52,3 +52,4 @@ jobs:
         envId: ${{ secrets.ENV_ID }}
          # Github 项目静态文件的路径
         staticSrcPath: ./dist
+        staticDestPath: ./blog
