@@ -4,16 +4,16 @@
   "description": "",
   "scripts": {
     "docs:dev": "vuepress dev src",
-    "docs:build": "vuepress build src --dest dist",
+    "docs:build": "vuepress build src --dest ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "李三思",
   "license": "ISC",
   "devDependencies": {
-    "@vssue/api-github-v3": "^1.4.0",
-    "@vuepress/plugin-google-analytics": "^1.3.1",
-    "vuepress": "^1.3.1",
-    "vuepress-theme-meteorlxy": "^1.8.0"
+    "@vssue/api-github-v3": "^1.4.4",
+    "@vuepress/plugin-google-analytics": "^1.5.2",
+    "vuepress": "^1.5.2",
+    "vuepress-theme-meteorlxy": "^1.9.0"
   }
 }
