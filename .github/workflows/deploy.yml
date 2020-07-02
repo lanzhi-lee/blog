@@ -1,9 +1,11 @@
 name: Publish Blogs
 
 on:
-  push:
-    branches:
-    - master
+  # push:
+  #   branches:
+  #   - master
+  tags:
+    - blogs.*
 
 jobs:
   build-deploy:
