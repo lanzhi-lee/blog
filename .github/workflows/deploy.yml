@@ -9,7 +9,8 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@master
+    - name: Checkout
+      uses: actions/checkout@master
 
     # - name: Setup Node
     #   uses: actions/setup-node@v1
@@ -23,12 +24,13 @@ jobs:
     #     key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
     #     restore-keys: |
     #       ${{ runner.os }}-node-
+    - name: 安装依赖
+      run: npm ci
 
-    - run: npm ci
+    - name: 构建站点
+      run: npm run docs:build
 
-    - run: npm run docs:build
-
-    - name: Deploy
+    - name: 部署至 GitHub Pages
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
         # ACTIONS_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
@@ -37,3 +39,16 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.DEPLOY_KEY }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./dist
+
+    # 使用云开发 Github Action 部署至云开发静态网站托管
+    - name: 部署至云开发静态网站托管
+      id: deployStatic
+      uses: TencentCloudBase/cloudbase-action@v1
+      with:
+        # 云开发的访问密钥 secretId 和 secretKey
+        secretId: ${{ secrets.SECRET_ID }}
+        secretKey: ${{ secrets.SECRET_KEY }}
+         # 云开发的环境id
+        envId: ${{ secrets.ENV_ID }}
+         # Github 项目静态文件的路径
+        staticSrcPath: ./dist
