@@ -1,5 +1,8 @@
 const Conf = require('./conf')
 
+// 在 Vercel 平台部署时，直接使用根目录
+const base = process.argv[process.argv.length - 1] === 'isVercel=true' ? '/' : '/blog/'
+
 module.exports = {
   // 网站 Title
   title: '兰之的博客',
@@ -8,11 +11,11 @@ module.exports = {
   // 开发服务指定的端口
   // 网站语言
   locales: {
-    '/': { lang: 'zh-CN', },
+    '/': { lang: 'zh-CN' },
   },
   port: 3001,
 
-  base: '/blog/',
+  base: base,
 
   markdown: {
     lineNumbers: true,
@@ -21,14 +24,12 @@ module.exports = {
   head: [
     // ['style', {}, `*{filter: grayscale(100%);}`],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'icon', type: "image/x-icon", href: '/favicon.ico' }],
-    ['meta', { name: 'google-site-verification', content: "QqTmeO1tqP2z-OKc8Wk3n1Fzj9gFxNZ4IMgMtuep00w" }],
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    ['meta', { name: 'google-site-verification', content: 'QqTmeO1tqP2z-OKc8Wk3n1Fzj9gFxNZ4IMgMtuep00w' }],
     ['script', {}, Conf.ba], // 百度统计的代码
   ],
 
-  plugins: [
-    ['@vuepress/google-analytics', { 'ga': Conf.ga }],
-  ],
+  plugins: [['@vuepress/google-analytics', { ga: Conf.ga }]],
 
   // 使用的主题
   theme: 'meteorlxy',
@@ -140,5 +141,5 @@ module.exports = {
       // 是否允许主题自动添加 Posts 页面 (url: /posts/)
       posts: true,
     },
-  }
+  },
 }
