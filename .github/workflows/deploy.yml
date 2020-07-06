@@ -29,8 +29,8 @@ jobs:
       - name: 安装依赖
         run: npm ci
 
-      - name: 构建站点
-        run: npm run docs:build
+      - name: 构建 GitHub Pages 版本的站点文件
+        run: npm run docs:gh-pages
 
       - name: 部署至 GitHub Pages
         uses: peaceiris/actions-gh-pages@v2.5.0
@@ -41,6 +41,9 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.DEPLOY_KEY }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./dist
+
+      - name: 构建云开发版本的站点文件
+        run: npm run docs:build
 
       # 使用云开发 Github Action 部署至云开发静态网站托管
       - name: 部署至云开发静态网站托管
