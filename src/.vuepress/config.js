@@ -103,7 +103,8 @@ module.exports = {
       // 添加自定义 footer (支持 HTML)
       // custom: `Powered by VuePress | Fork from <a href="https://github.com/meteorlxy/vuepress-theme-meteorlxy" target="_blank">meteorlxy</a>`
       custom: `Powered by <a href="https://github.com/vuejs/vuepress" target="_blank">VuePress</a> | 
-      Fork from <a href="https://github.com/meteorlxy/vuepress-theme-meteorlxy" target="_blank">meteorlxy</a>`,
+      Fork from <a href="https://github.com/meteorlxy/vuepress-theme-meteorlxy" target="_blank">meteorlxy</a>
+      <p>Hosted BY 云开发 <a href="https://cloud.tencent.com/product/wh?from=12331" target="_blank">Cloudbase</a></p>`,
     },
 
     // 个人信息卡片相关设置 (可选)
