@@ -1,9 +1,10 @@
 ---
-category: React
+category: 学习笔记
 tags:
+  - react
   - redux
   - react-router
-  - hooks
+  - react-hooks
   - typescript
 date: 2019-08-01
 title: React-TypeScript入门实例

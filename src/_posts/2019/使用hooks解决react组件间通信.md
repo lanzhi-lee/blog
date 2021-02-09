@@ -1,7 +1,8 @@
 ---
-category: React
+category: 学习笔记
 tags:
-  - hooks
+  - react
+  - react-hooks
 date: 2020-01-01
 title: 使用hooks解决react组件间通信
 header-title: true

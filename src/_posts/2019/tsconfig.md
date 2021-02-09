@@ -1,5 +1,7 @@
 ---
-category: TypeScript
+category: 学习笔记
+tags:
+  - typescript
 date: 2020-01-01
 title: tsconfig.json全解析
 header-title: true

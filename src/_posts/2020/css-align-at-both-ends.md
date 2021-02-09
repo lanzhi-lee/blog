@@ -1,5 +1,7 @@
 ---
-category: CSS
+category: 学习笔记
+tags:
+  - css
 date: 2020-01-18
 title: CSS 分散/两端对齐
 header-title: true

@@ -1,5 +1,5 @@
 ---
-category: JavaScript
+category: 学习笔记
 tags:
   - es-next
 date: 2020-01-01

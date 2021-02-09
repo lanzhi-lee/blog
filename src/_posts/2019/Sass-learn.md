@@ -1,7 +1,8 @@
 ---
-category: CSS
+category: 学习笔记
 tags:
-  - Sass
+  - css
+  - sass
 date: 2020-01-01
 title: Sass学习记录
 header-title: true

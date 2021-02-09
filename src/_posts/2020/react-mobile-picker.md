@@ -1,5 +1,5 @@
 ---
-category: React
+category: 学习笔记
 date: 2020-03-11
 title: react-mobile-picker
 header-title: true
