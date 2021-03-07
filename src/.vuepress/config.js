@@ -104,7 +104,11 @@ module.exports = {
       // custom: `Powered by VuePress | Fork from <a href="https://github.com/meteorlxy/vuepress-theme-meteorlxy" target="_blank">meteorlxy</a>`
       custom: `Powered by <a href="https://github.com/vuejs/vuepress" target="_blank">VuePress</a> | 
       Fork from <a href="https://github.com/meteorlxy/vuepress-theme-meteorlxy" target="_blank">meteorlxy</a>
-      <p>Hosted BY 云开发 <a href="https://cloud.tencent.com/product/wh?from=12331" target="_blank">Cloudbase</a></p>`,
+      <p>Hosted BY 云开发 <a href="https://cloud.tencent.com/product/wh?from=12331" target="_blank">Cloudbase</a></p>
+      <p style="color:#999;">
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style="color:#999;">豫ICP备19035256号-1</a> | 
+        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41132802000312" target="_blank" rel="noopener noreferrer" style="color:#999;">豫公网安备41132802000312号</a>
+      </p>`,
     },
 
     // 个人信息卡片相关设置 (可选)
