@@ -13,9 +13,9 @@
   "author": "李三思",
   "license": "ISC",
   "devDependencies": {
-    "@vssue/api-github-v3": "^1.4.4",
-    "@vuepress/plugin-google-analytics": "^1.5.2",
-    "vuepress": "^1.5.2",
+    "@vssue/api-github-v3": "^1.4.7",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "vuepress": "^1.8.2",
     "vuepress-theme-meteorlxy": "^1.9.0"
   }
 }
