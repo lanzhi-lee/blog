@@ -32,9 +32,7 @@ const App = () => {
 }
 ```
 
-这里集中介绍了其他的可行的办法
-
-https://stackoverflow.com/questions/54633690/how-can-i-use-multiple-refs-for-an-array-of-elements-with-hooks
+这里集中介绍了其他的可行的办法 -> [StackOverflow](https://stackoverflow.com/questions/54633690/how-can-i-use-multiple-refs-for-an-array-of-elements-with-hooks)
 
 需要注意的是，处理列表元素时，首选尝试把相关的监听委托给父元素等办法
 
