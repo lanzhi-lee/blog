@@ -128,7 +128,7 @@ module.exports = {
 
     // 评论配置，参考下方 [页面评论] 章节
     comments: {
-      owner: 'baibai-lee',
+      owner: 'lanzhi-lee',
       repo: 'blog',
       clientId: Conf.comments.clientId,
       clientSecret: Conf.comments.clientSecret,
