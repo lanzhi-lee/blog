@@ -5,9 +5,9 @@ const base = process.argv[process.argv.length - 1] === 'isVercel=true' ? '/' : '
 
 module.exports = {
   // 网站 Title
-  title: '兰之的博客',
+  title: '兰之的随想',
   // 网站描述
-  description: '兰之的博客',
+  description: '兰之的随想 | 兰之的博客',
   // 开发服务指定的端口
   // 网站语言
   locales: {
@@ -71,7 +71,7 @@ module.exports = {
         // Github 帐号和链接
         github: { account: '李三思', link: 'https://github.com/baibai-lee' },
         // Facebook 帐号和链接
-        facebook: { account: 'Lanzhi Lee', link: 'https://www.facebook.com/lanzhi.leezx' },
+        // facebook: { account: 'Lanzhi Lee', link: 'https://www.facebook.com/lanzhi.leezx' },
         // 知乎 帐号和链接
         zhihu: { account: '李三思', link: 'https://www.zhihu.com/people/li-bai-75-59' },
         // 掘金 帐号和链接
